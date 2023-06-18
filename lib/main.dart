@@ -132,7 +132,7 @@ class ArcPainter extends CustomPainter {
       canvas.drawArc(rect, baseAngle, sweepAngle(), true, colors[i]);
       baseAngle += sweepAngle();
     }
-    
+
   }
 
   @override
